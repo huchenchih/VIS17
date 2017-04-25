@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>酒駕視覺化</title>
+
+</head>
+
+<body>
+<br><br><br><br><br>
+<div style="width: 40%; float: left;">
+
+
+<center><img src="http://140.119.164.164:320/CCHu_share/vis17/hw3/fig1.png" width="400px" height="600px"></center>
+<br><br><br><br>
+ParentIdLabel.Text = Request.QueryString["alcoholrate"];
+<input id="txta1" type="text" size="7"> 
+<input id="txtb1" type="text" size="7"> 
+<FORM>
+<p align="center"><INPUT TYPE="BUTTON" NAME="nextVisual" VALUE="視覺化呈現" onclick="location.href='http://140.119.164.164:320/CCHu_share/vis17/hw3/visualization.html'" ></p>
+</FORM>
+</div>
+<div style="width: 59%; float: left;">
+<h2>台灣:<br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準一：酒測值0.22～0.44／<font color="red">罰鍰29,000元台幣</font>／<font color="blue">吊扣駕照1年</font><br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準二：酒測值0.44～0.55／<font color="red">罰鍰51,500元台幣</font>／<font color="blue">吊扣駕照1年</font><br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準三：酒測值0.55以上／<font color="red">罰鍰74,000元台幣</font>／<font color="blue">吊扣駕照1年</font><br>
+<h2>美國：<br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準：酒測值達0.28／<font color="red">罰金1,500至1,800 美元（約50,000元台幣）</font>／<font color="blue">吊扣駕照6個月以下</font><br>
+<h2>日本：<br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準一：酒測值達0.15／<font color="red">罰金500,000日幣（約140,000元台幣）</font>／<font color="blue">吊扣駕照3個月</font>／<font color="green">處3年以下徒刑</font><br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準二：酒測值達0.25／<font color="red">罰金500,000日幣（約140,000元台幣）</font>／<font color="blue">吊銷駕照2年</font>／<font color="green">處3年以下徒刑</font><br>
+<h2>法國：<br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準一：酒測值達0.25／<font color="red">罰金135歐元（約4,300元台幣）</font>／<font color="blue">吊銷駕照3年以下</font><br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準二：酒測值達0.4／<font color="red">罰金4,500歐元（約144,000元台幣）</font>／<font color="blue">吊銷駕照3年</font>／<font color="green">處2年徒刑</font><br>
+<h2>俄國：<br>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;標準：酒測值達0.2／<font color="red">罰金3,000至5,000 美元（約120,000元台幣）</font>／<font color="blue">吊銷駕照半年至2年</font>／<font color="green">拘留3週</font><br><br><br><br>
+
+<FORM>
+<p align="center"><INPUT TYPE="BUTTON" NAME="nextVisual" VALUE="點我看台灣酒駕完整罰則" onclick=window.open("http://140.119.164.164:320/CCHu_share/vis17/hw3/ruleshow.jpg") ></p>
+</FORM>
+</div>
+
+</body>
+</html>
